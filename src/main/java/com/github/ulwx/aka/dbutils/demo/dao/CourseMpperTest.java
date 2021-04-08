@@ -161,22 +161,23 @@ public class CourseMpperTest {
     public static void testUpdateCourseManual(){
         MDbUtils.getMapper(DbPoolName, CourseMpper.class).updateCourseManual();
     }
+
     public static void main(String[] a) {
         InitDataTool.prepareData();
-        testReturnDataBaseSet();
-        testReturnDataBaseSetAndPage();
-        testGetOne();
-        testGetOneCourseByIds();
-        testGetList();
-        testCouseListPage();
-       testCouseListOne2One();
-        testCouseListOne2OnePage();
-        testCouseListOne2Many();
-        testAddCourse();
-        testAddCourseAndReturnKey();
-        testUpdateCourse();
-       testTransaction();
-        testUpdateCourseManual();
+       //  testReturnDataBaseSet();
+       //  testReturnDataBaseSetAndPage();
+       //  testGetOne();
+       //  testGetOneCourseByIds();
+       //  testGetList();
+       //  testCouseListPage();
+       // testCouseListOne2One();
+       //  testCouseListOne2OnePage();
+       //  testCouseListOne2Many();
+       //  testAddCourse();
+       //  testAddCourseAndReturnKey();
+       //  testUpdateCourse();
+       // testTransaction();
+         testUpdateCourseManual();
 
 
     }

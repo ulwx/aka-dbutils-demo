@@ -38,6 +38,7 @@ public abstract class CourseMpper extends AkaMapper {
         course.setClassHours(45);
         course.setId(3);
         MDataBase mDataBase=this.getMdDataBase();
+        Course c = mDataBase.queryOneBy(course);
         this.updateCourse(course);
     }
 
