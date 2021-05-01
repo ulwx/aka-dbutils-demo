@@ -48,7 +48,6 @@ public class CourseDao {
         course.setClassHours(classHours);
         return MDbUtils.queryListBy(DbPoolName, course);
 
-
     }
     public List<Course> queryListByWithSetting(String name, int classHours) {
         Course course=new Course();
